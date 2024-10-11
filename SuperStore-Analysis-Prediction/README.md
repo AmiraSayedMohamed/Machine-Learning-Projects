@@ -91,5 +91,5 @@ pip install pandas matplotlib seaborn scikit-learn
   Each model's performance was evaluated using metrics such as Mean Absolute Error (MAE) and R-squared (R²).
   
   Results 🏆
-  The best-performing model achieved an R² score of [insert your best score] on the validation set, indicating a strong ability to predict sales based on historical data.
+  The best-performing model achieved an R² score  on the validation set, indicating a strong ability to predict sales based on historical data.
 
