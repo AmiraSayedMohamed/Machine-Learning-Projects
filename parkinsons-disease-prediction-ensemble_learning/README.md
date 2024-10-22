@@ -35,6 +35,31 @@ To get a copy of this project up and running on your local machine, follow these
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/parkinsons-disease-prediction.git
-   cd parkinsons-disease-prediction
+   git clone https://github.com/AmiraSayedMohamed/Machine-Learning-Projects/tree/master/parkinsons-disease-prediction-ensemble_learning
+   cd parkinsons-disease-prediction-ensemble_learning
 
+
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Jupyter Notebook:
+
+bash
+Copy code
+jupyter notebook
+Explore the project: Open the notebook and follow along with the code and explanations.
+
+Data
+The dataset used in this project contains voice recordings from individuals with and without Parkinson's disease.
+Each record consists of various acoustic features that are extracted from the audio data.
+Modeling
+Employed ensemble learning techniques, including Random Forest and Gradient Boosting classifiers.
+Implemented data preprocessing techniques like scaling and SMOTE to handle class imbalance.
+Results
+Achieved an accuracy of [insert accuracy]% on the test data.
+Detailed performance metrics can be found in the classification report.
+Insights
+Analyzed feature importance to understand the most significant factors in predicting Parkinson's disease.
+Visualized data distributions and model predictions to derive actionable insights.
